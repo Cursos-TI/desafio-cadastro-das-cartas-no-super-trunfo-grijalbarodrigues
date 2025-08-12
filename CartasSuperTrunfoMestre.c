@@ -84,6 +84,7 @@ int main (){
     printf("Carta 2:\nEstado: %c\nCódigo: %s\nNome da Cidade: %s\nPopulação: %.2lu habitantes\n",estado2,codigo2,cidade2,populacao2);
     printf("Área: %.2f km²\nPIB: %.2f\nNúmero de Pontos Turísticos: %d\n",area2,pib2,pontoturistico2);
     printf("Densidade Populacional: %.2f hab./km²\nPIB per capita: %.2f reais\nSuper Poder Carta 2%.2f\n", densidade2, pibpercapita2, superPoder2);
+
     
 
     //RESULTADO DA GUERRA DAS CARTAS:
@@ -107,5 +108,7 @@ int main (){
     printf("PIB per capita: %d\n", resultadoPibperCapita);
     printf("Super Poder: %d\n", resultadoSuperPoder);
   
+
+
     return 0;
 }
